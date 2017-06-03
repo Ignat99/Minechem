@@ -13,5 +13,13 @@ Minechem is licensed under the [DBaJ (Don't Be a Jerk) non-commercial care-free 
 **Development**  
 Before submitting a pull request, please review the [PR Guidelines](https://github.com/jakimfett/Minechem/wiki/Pull-Request-Guidelines) wiki page.  
 
+**Compilation**
+
+`cd Minechem`
+
+`gradlew setupdecompworkspace`
+
+`gradlew build`
+
 Please note that when running Minechem v6 in a dev environment, you'll need to add the following to your VM options:  
 `-Dfml.coreMods.load=minechem.asm.LoadingPlugin`
