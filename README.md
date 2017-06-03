@@ -15,11 +15,11 @@ Before submitting a pull request, please review the [PR Guidelines](https://gith
 
 **Compilation**
 
-cd Minechem
+`cd Minechem`
 
-gradlew setupdecompworkspace
+`gradlew setupdecompworkspace`
 
-gradlew build
+`gradlew build`
 
 Please note that when running Minechem v6 in a dev environment, you'll need to add the following to your VM options:  
 `-Dfml.coreMods.load=minechem.asm.LoadingPlugin`
